@@ -18,6 +18,11 @@ public class Student {
 		return laptops;
 	}
 	
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", laptops=" + laptops + "]";
+	}
+
 	public void setLaptops(List<Laptop> laptop) {
 		this.laptops = laptop;
 	}

@@ -38,11 +38,13 @@ public class Test {
 		
 		Transaction txc = session.beginTransaction();
 		
-		session.persist(l); 
-		session.persist(s);
-		
+//		session.persist(l); 
+//		session.persist(s);
+		 
+		Student ans = (Student) session.get(Student.class, 110);
+		System.out.println(ans);
 
 		txc.commit();
 	}
-
+ 
 }
