@@ -1,0 +1,5 @@
+package hibernate_hasARelation;
+
+public class Name {
+
+}

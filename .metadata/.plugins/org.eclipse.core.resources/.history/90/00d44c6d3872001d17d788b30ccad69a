@@ -1,0 +1,15 @@
+package repoPack;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class CustomerRepo 
+{
+	public void addNewCustomer(Customer c)
+	{
+		boolean flag = false;
+		Connection con = ConnectDB.connectDB();
+		
+	}
+	
+}

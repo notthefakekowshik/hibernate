@@ -1,0 +1,23 @@
+package mappingDemo;
+
+import jakarta.persistence.*;
+
+@Embeddable
+public class Laptop {
+
+	private int laptopId;
+	private String name;
+	public int getId() {
+		return laptopId;
+	}
+	public void setId(int laptopId) {
+		this.laptopId = laptopId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}

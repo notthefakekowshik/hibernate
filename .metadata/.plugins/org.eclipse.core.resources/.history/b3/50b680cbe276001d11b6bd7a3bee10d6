@@ -1,0 +1,29 @@
+package mappingDemo;
+
+import jakarta.persistence.*;
+
+@Entity
+public class Laptop {
+
+	@Id
+	private int id;
+	private String laptopName;
+	
+	@ManyToOne
+	private Student stu;
+
+	public int getLaptopId() {
+		return laptopId;
+	}
+	public void setLaptopId(int laptopId) {
+		this.laptopId = laptopId;
+	}
+	public String getLaptopName() {
+		return laptopName;
+	}
+	
+	public void setLaptopName(String laptopName) {
+		this.laptopName = laptopName;
+	}
+	
+}

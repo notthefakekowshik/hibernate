@@ -1,0 +1,12 @@
+package repoPack;
+
+import java.sql.Connection;
+
+public class CustomerRepo 
+{
+	public void addNewCustomer()
+	{
+		Connection con = ConnectDB.connectDB();
+	}
+	
+}

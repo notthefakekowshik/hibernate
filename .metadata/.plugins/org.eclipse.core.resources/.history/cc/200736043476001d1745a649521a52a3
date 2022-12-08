@@ -1,0 +1,17 @@
+package hibernateT;
+
+import org.hibernate.Session;
+
+public class Test {
+
+	public static void main(String[] args) 
+	{
+
+		Alien kowshik = new Alien();
+		kowshik.setAge(22);
+		kowshik.setName("kowshik");
+		
+		Session session = 
+	}
+
+}

@@ -1,0 +1,26 @@
+package uiPack;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import servicesPack.CustomerService;
+import servicesPack.OrderService;
+import servicesPack.ProductService;
+import serviceImplPack.CustomerServiceImpl;
+import serviceImplPack.OrderServiceImpl;
+import serviceImplPack.ProductServiceImpl;
+import beansPack.Customer;
+
+
+public class EcomUI 
+{
+	public static void showMenu()
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+
+	}
+}

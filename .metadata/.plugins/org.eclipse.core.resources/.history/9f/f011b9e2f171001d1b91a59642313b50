@@ -1,0 +1,45 @@
+package hibernatePack2;
+
+import org.hibernate.Session;  
+import org.hibernate.SessionFactory;  
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.metamodel.Metadata;
+import org.hibernate.metamodel.MetadataSources;
+import org.hibernate.service.ServiceRegistry;
+//import org.hibernate.boot.Metadata;  
+//import org.hibernate.boot.MetadataSources;  
+//import org.hibernate.boot.registry.StandardServiceRegistry;  
+//import org.hibernate.boot.registry.StandardServiceRegistryBuilder;  
+import org.hibernate.service.ServiceRegistryBuilder;
+  
+public class Test {  
+  
+    public static void main( String[] args )  
+    {  
+    	try
+    	{
+    		Configuration con = new Configuration().configure();  
+            
+            SessionFactory sf = con.buildSessionFactory();
+       
+           Session session = sf.openSession();  
+           Transaction t = session.beginTransaction();  
+             
+            Employee e1=new Employee();    
+               e1.setId();    
+               e1.setFirstName("bot");    
+               e1.setLastName("N");    
+            
+          session.saveOrUpdate(e1);  
+          t.commit();    
+          sf.close();  
+           session.close();
+    	}
+    	catch(Exception e)
+    	{
+    		System.out.println(e.getMessage());
+    	}
+        System.out.println("inserted");
+    }  
+}  

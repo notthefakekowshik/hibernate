@@ -1,0 +1,8 @@
+package hibernateT;
+
+public class Alien 
+{
+	private int age;
+	private int name;
+	
+}

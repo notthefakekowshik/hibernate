@@ -1,0 +1,18 @@
+package repoPack;
+import java.sql.*;
+
+
+public class ConnectDB {
+	static final String DB_URL = "jdbc:mysql://localhost:3306/coreJavaWorkshop?characterEncoding=utf8";
+   static final String USER = "root";
+   static final String PASS = "Kowshik1111475";
+   try
+   {
+	   
+   }
+   catch(Exception e)
+   {
+	   
+   }
+		   
+}

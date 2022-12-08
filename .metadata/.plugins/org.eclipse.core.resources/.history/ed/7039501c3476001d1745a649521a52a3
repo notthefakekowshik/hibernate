@@ -1,0 +1,22 @@
+package hibernateT;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Test {
+
+	public static void main(String[] args) 
+	{
+
+		Alien kowshik = new Alien();
+		kowshik.setAge(22);
+		kowshik.setName("kowshik");
+		
+		Configuration cfg = new Configuration();
+		SessionFactory sf = cfg.buildSessionFactory();
+		Session session = sf.openSession()
+				
+	}
+
+}
