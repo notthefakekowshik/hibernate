@@ -37,7 +37,7 @@ public class Test
 		
 		Query q = session.createQuery("from alienTable where id < 50");
 		List<Alien> aliens= q.list();
-		
+		 
 		for(Alien curr : aliens)
 		{
 			System.out.println(curr.getId()+ " "+curr.getName());

@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="K:\HibernateWorkspace\hibernate_ManyToMany"/>
+			<item value="K:\HibernateWorkspace\hibernate_oneToManyDemo"/>
+			<item value="K:\HibernateWorkspace\hibernate_hasARelation"/>
+			<item value="K:\HibernateWorkspace\hibernate_saveObjectT"/>
 			<item value="K:\HibernateWorkspace\HibernateU"/>
 			<item value="K:\HibernateWorkspace\Hibernate1"/>
 		</list>
@@ -45,6 +49,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="hibernate_HQL1"/>
+			<item value="hibernate_ManyToMany"/>
+			<item value="hibernate_OneToOne"/>
+			<item value="mappingDemo"/>
+			<item value="hibernate_hasARelation"/>
+			<item value="hibernate_fetchDataT"/>
 			<item value="hibernateT"/>
 			<item value="ecom_original"/>
 			<item value="ECOM"/>
@@ -54,6 +64,12 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="hibernate_HQL1"/>
+			<item value="hibernate_ManyToMany"/>
+			<item value="hibernate_OneToOne"/>
+			<item value="mappingDemo"/>
+			<item value="hibernate_hasARelation"/>
+			<item value="hibernate_fetchDataT"/>
 			<item value="hibernateT"/>
 			<item value="ecom_original"/>
 			<item value="ECOM"/>

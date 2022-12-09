@@ -1,9 +1,0 @@
-package com.workfusion.exceptions;
-
-public class InvalidPhoneNumberException extends Exception{
-
-	InvalidPhoneNumberException(String msg)
-	{
-		
-	}
-}

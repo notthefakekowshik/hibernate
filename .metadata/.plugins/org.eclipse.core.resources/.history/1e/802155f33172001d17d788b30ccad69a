@@ -1,8 +1,0 @@
-package servicePack;
-
-public interface OrderService 
-{
-	public List<Order> displayOrders();
-	public void createOrderService(Customer c);
-	public void updateExistingOrder();
-}	
